@@ -2,6 +2,14 @@ plugins {
     id("java")
 }
 
+version = "0.1.0"
+
+tasks.jar {
+    archiveBaseName.set("CustomAutoStorage")
+    archiveVersion.set(project.version.toString())
+    archiveClassifier.set("")
+}
+
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(25))
 
