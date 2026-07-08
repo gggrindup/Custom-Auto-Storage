@@ -1,0 +1,68 @@
+Group {
+    Anchor: (Left: 0, Right: 0);
+    LayoutMode: Top;
+
+    Group #ChestRow {
+        Anchor: (Left: 0, Right: 0, Height: 136);
+        Padding: (Top: 6, Left: 12, Right: 12, Bottom: 6);
+        Background: (Color: #2c3947);
+
+        ItemIcon #ChestIcon {
+            Anchor: (Top: 0, Left: 0, Width: 52, Height: 52);
+        }
+
+        Label #ChestTitle {
+            Text: "Chest";
+            Anchor: (Top: 0, Left: 60, Right: 310, Height: 18);
+            Style: (FontSize: 12, TextColor: #e1e6eb, RenderBold: true, VerticalAlignment: Center);
+        }
+
+        Label #ChestCoords {
+            Text: "X= 0; Y= 0; Z= 0";
+            Anchor: (Top: 0, Right: 100, Width: 210, Height: 18);
+            Style: (FontSize: 11, TextColor: #9fb2c4, HorizontalAlignment: Center, VerticalAlignment: Center);
+        }
+
+        Group #ItemsRows {
+            Anchor: (Top: 20, Left: 60, Right: 100, Bottom: 0);
+            LayoutMode: Top;
+        }
+
+        Group #IgnoredBadge {
+            Anchor: (Top: 24, Right: 0, Width: 90, Height: 18);
+            Background: (Color: #6b2b2b);
+
+            Label #IgnoredBadgeLabel {
+                Text: "NOT IGNORED";
+                Anchor: (Full: 0);
+                Style: (TextColor: #f5c6c6, FontSize: 10, HorizontalAlignment: "Center", VerticalAlignment: "Center", RenderBold: true);
+            }
+        }
+
+        Group #ActiveBadge {
+            Anchor: (Top: 24, Right: 0, Width: 90, Height: 18);
+            Background: (Color: #1f5a2c);
+
+            Label #ActiveBadgeLabel {
+                Text: "IGNORED";
+                Anchor: (Full: 0);
+                Style: (TextColor: #d6f0dc, FontSize: 10, HorizontalAlignment: "Center", VerticalAlignment: "Center", RenderBold: true);
+            }
+        }
+
+        TextButton #IgnoreButton {
+            Anchor: (Top: 0, Right: 0, Width: 90, Height: 24);
+            Style: (Default: (Background: (Color: #3b4859)), Hovered: (Background: (Color: #465566)), Pressed: (Background: (Color: #2f3b4a)));
+
+            Label #IgnoreLabel {
+                Text: "Ignore";
+                Anchor: (Full: 0);
+                Style: (TextColor: #e1e6eb, FontSize: 11, HorizontalAlignment: Center, VerticalAlignment: Center);
+            }
+        }
+    }
+
+    Group #ChestRowSpacer {
+        Anchor: (Left: 0, Right: 0, Height: 8);
+    }
+}

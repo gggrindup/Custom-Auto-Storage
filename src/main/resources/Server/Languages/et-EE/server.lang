@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Kast, mis paigutab esemed automaatselt lähedal asuvatesse kirstudesse. Seadistamiseks hoia all Kükitamine + Kasuta.
+items.Furniture_AutoStorage.name=Automaatne hoiukast
+
+autostorage.ui.subtitle=Selle kastiga seotud seadistuspaneel
+autostorage.ui.current_mode=Praegune režiim: {mode}
+autostorage.ui.linked_chests=Seotud kirstud: {count}
+autostorage.ui.horizontal_range=Horisontaalne ulatus: {current} / {max}
+autostorage.ui.vertical_range=Vertikaalne ulatus: {current} / {max}
+autostorage.ui.state.active=AKTIIVNE
+autostorage.ui.mode.item.label=Sama ese
+autostorage.ui.mode.item.desc=Iga ese läheb samasse kirstu kui see ese
+autostorage.ui.mode.category.label=Eseme kategooria
+autostorage.ui.mode.category.desc=Sorteerib kangid, palgid, relvad, tööriistad...
+autostorage.ui.mode.category.warning=(Hytale'l ei ole alati ühtseid kategooriaid)
+autostorage.ui.show_range=Näita ulatust
+autostorage.chat.sorting_mode=[AutoStorage] Sorteerimisrežiim: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Ulatus kuvatud 10 sekundiks.
+autostorage.chat.chest_not_found=[AutoStorage] Kirstu ei leitud.
+autostorage.chat.config_owner_only=[AutoStorage] Ainult mängija, kes pani selle AutoStorage'i, saab seda seadistada.
+
+autostorage.chat.claim_protected=[AutoStorage] Seda AutoStorage'it ei saa siin kasutada, sest claim blokeerib kirstudega suhtlemise.
+
+
+autostorage.ui.tab.config=Seadistus
+autostorage.ui.tab.chests=Seotud kirstud
+autostorage.ui.chests.title=Kirstud ulatuses
+autostorage.ui.chests.empty=Sobivaid kirste ei leitud.
+autostorage.ui.chests.more=Ja veel {count}...
+autostorage.ui.chests.ignore=Ignoreeri
+autostorage.ui.chests.ignored=Ignoreeritud
+autostorage.ui.chests.badge.ignored=IGNOREERITUD
+autostorage.ui.chests.badge.not_ignored=MITTE IGNOREERITUD
+autostorage.ui.chests.page=Leht {current} / {total}
+autostorage.ui.chests.prev=Eelmine
+autostorage.ui.chests.next=Järgmine
+
+autostorage.ui.chests.inactive=INAKTIIVNE
+
+
+autostorage.ui.fallback.label=Kanna ükskõik kuhu, kui puudu
+autostorage.ui.state.inactive=INAKTIIVNE
+autostorage.ui.fallback.desc=Kui üheski kirstus pole eset, kanna see ükskõik millisesse kirstu.
+
+autostorage.ui.section.sorting=Sorteerimisrežiim:
+autostorage.ui.section.options=Valikud:
+
+autostorage.ui.section.range=Ulatus:
+

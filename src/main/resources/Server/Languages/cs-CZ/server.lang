@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Bedna, která automaticky ukládá předměty do okolních truhel. Podržte Přikrčit + Použít pro konfiguraci.
+items.Furniture_AutoStorage.name=Automatická úložná bedna
+
+autostorage.ui.subtitle=Konfigurační panel spojený s touto bednou
+autostorage.ui.current_mode=Aktuální režim: {mode}
+autostorage.ui.linked_chests=Propojené truhly: {count}
+autostorage.ui.horizontal_range=Horizontální dosah: {current} / {max}
+autostorage.ui.vertical_range=Vertikální dosah: {current} / {max}
+autostorage.ui.state.active=AKTIVNÍ
+autostorage.ui.mode.item.label=Stejný předmět
+autostorage.ui.mode.item.desc=Každý předmět jde do stejné truhly jako tento předmět
+autostorage.ui.mode.category.label=Kategorie předmětů
+autostorage.ui.mode.category.desc=Třídí podle ingotů, klád, zbraní, nástrojů...
+autostorage.ui.mode.category.warning=(Hytale nemá vždy konzistentní kategorie)
+autostorage.ui.show_range=Zobrazit dosah
+autostorage.chat.sorting_mode=[AutoStorage] Režim třídění: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Dosah zobrazen na 10 sekund.
+autostorage.chat.chest_not_found=[AutoStorage] Truhla nenalezena.
+autostorage.chat.config_owner_only=[AutoStorage] Konfigurovat může pouze hráč, který umístil tento AutoStorage.
+
+autostorage.chat.claim_protected=[AutoStorage] Tento AutoStorage zde nelze použít, protože claim blokuje interakci s truhlami.
+
+
+autostorage.ui.tab.config=Konfigurace
+autostorage.ui.tab.chests=Propojené truhly
+autostorage.ui.chests.title=Truhly v dosahu
+autostorage.ui.chests.empty=Nebyly nalezeny žádné vhodné truhly.
+autostorage.ui.chests.more=A dalších {count}...
+autostorage.ui.chests.ignore=Ignorovat
+autostorage.ui.chests.ignored=Ignorováno
+autostorage.ui.chests.badge.ignored=IGNOROVÁNO
+autostorage.ui.chests.badge.not_ignored=NEIGNOROVÁNO
+autostorage.ui.chests.page=Strana {current} / {total}
+autostorage.ui.chests.prev=Předchozí
+autostorage.ui.chests.next=Další
+
+autostorage.ui.chests.inactive=NEAKTIVNÍ
+
+
+autostorage.ui.fallback.label=Přenést kamkoli, pokud chybí
+autostorage.ui.state.inactive=NEAKTIVNÍ
+autostorage.ui.fallback.desc=Pokud žádná truhla nemá předmět, přenést do jakékoli truhly.
+
+autostorage.ui.section.sorting=Režim třídění:
+autostorage.ui.section.options=Možnosti:
+
+autostorage.ui.section.range=Dosah:
+

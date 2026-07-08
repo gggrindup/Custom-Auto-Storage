@@ -1,0 +1,351 @@
+        Group #ConfigContent {
+          Anchor: (Top: 40, Bottom: 0, Left: 0, Right: 0);
+          LayoutMode: Top;
+
+          Label #RangeHeader {
+            Text: "Range:";
+            Anchor: (Left: 0, Right: 0, Height: 20);
+            Style: (
+              FontSize: 13,
+              TextColor: #8fa3b5,
+              RenderBold: true,
+              VerticalAlignment: Center
+            );
+          }
+
+          Group { Anchor: (Left: 0, Right: 0, Height: 6); }
+
+          Group #RadiusSection {
+            Anchor: (Left: 0, Right: 0, Height: 160);
+            LayoutMode: Top;
+
+            Group #HorizontalRadiusRow {
+              Anchor: (Left: 0, Right: 0, Height: 36);
+
+              Button #HorizontalRadiusMinus {
+                Anchor: (Left: 0, Width: 34, Height: 32);
+                Style: (
+                  Default: (Background: (Color: #2c3947)),
+                  Hovered: (Background: (Color: #334253)),
+                  Pressed: (Background: (Color: #253240))
+                );
+                Label {
+                  Text: "-";
+                  Anchor: (Full: 0);
+                  Style: (
+                    TextColor: #e1e6eb,
+                    FontSize: 18,
+                    HorizontalAlignment: Center,
+                    VerticalAlignment: Center
+                  );
+                }
+              }
+
+              Label #HorizontalRadiusValue {
+                Text: "Horizontal range: 14 / 20";
+                Anchor: (Left: 42, Right: 42, Height: 32);
+                Style: (
+                  FontSize: 13,
+                  TextColor: #e1e6eb,
+                  HorizontalAlignment: Center,
+                  VerticalAlignment: Center
+                );
+              }
+
+              Button #HorizontalRadiusPlus {
+                Anchor: (Right: 0, Width: 34, Height: 32);
+                Style: (
+                  Default: (Background: (Color: #2c3947)),
+                  Hovered: (Background: (Color: #334253)),
+                  Pressed: (Background: (Color: #253240))
+                );
+                Label {
+                  Text: "+";
+                  Anchor: (Full: 0);
+                  Style: (
+                    TextColor: #e1e6eb,
+                    FontSize: 18,
+                    HorizontalAlignment: Center,
+                    VerticalAlignment: Center
+                  );
+                }
+              }
+            }
+
+            Group { Anchor: (Left: 0, Right: 0, Height: 8); }
+
+            Group #VerticalRadiusRow {
+              Anchor: (Left: 0, Right: 0, Height: 36);
+
+              Button #VerticalRadiusMinus {
+                Anchor: (Left: 0, Width: 34, Height: 32);
+                Style: (
+                  Default: (Background: (Color: #2c3947)),
+                  Hovered: (Background: (Color: #334253)),
+                  Pressed: (Background: (Color: #253240))
+                );
+                Label {
+                  Text: "-";
+                  Anchor: (Full: 0);
+                  Style: (
+                    TextColor: #e1e6eb,
+                    FontSize: 18,
+                    HorizontalAlignment: Center,
+                    VerticalAlignment: Center
+                  );
+                }
+              }
+
+              Label #VerticalRadiusValue {
+                Text: "Vertical range: 6 / 8";
+                Anchor: (Left: 42, Right: 42, Height: 32);
+                Style: (
+                  FontSize: 13,
+                  TextColor: #e1e6eb,
+                  HorizontalAlignment: Center,
+                  VerticalAlignment: Center
+                );
+              }
+
+              Button #VerticalRadiusPlus {
+                Anchor: (Right: 0, Width: 34, Height: 32);
+                Style: (
+                  Default: (Background: (Color: #2c3947)),
+                  Hovered: (Background: (Color: #334253)),
+                  Pressed: (Background: (Color: #253240))
+                );
+                Label {
+                  Text: "+";
+                  Anchor: (Full: 0);
+                  Style: (
+                    TextColor: #e1e6eb,
+                    FontSize: 18,
+                    HorizontalAlignment: Center,
+                    VerticalAlignment: Center
+                  );
+                }
+              }
+            }
+
+            Group { Anchor: (Left: 0, Right: 0, Height: 8); }
+
+            Label #LinkedChestCount {
+              Text: "Linked chests: 0";
+              Anchor: (Left: 0, Right: 0, Height: 20);
+              Style: (
+                FontSize: 13,
+                TextColor: #9fb2c4,
+                  VerticalAlignment: Center,
+                HorizontalAlignment: Center
+              );
+            }
+
+            Group { Anchor: (Left: 0, Right: 0, Height: 8); }
+
+            Button #ShowRangeButton {
+              Anchor: (Left: 0, Right: 0, Height: 32);
+              Style: (
+                Default: (Background: (Color: #1a6b3a)),
+                Hovered: (Background: (Color: #228b4a)),
+                Pressed: (Background: (Color: #145c30))
+              );
+              Label #ShowRangeButtonLabel {
+                Text: "Show range";
+                Anchor: (Full: 0);
+                Style: (
+                  TextColor: #ffffff,
+                  FontSize: 13,
+                  HorizontalAlignment: Center,
+                  VerticalAlignment: Center
+                );
+              }
+            }
+          }
+
+          Group { Anchor: (Left: 0, Right: 0, Height: 12); }
+
+          Label #SortingModeHeader {
+            Text: "Sorting mode:";
+            Anchor: (Left: 0, Right: 0, Height: 20);
+            Style: (
+              FontSize: 13,
+              TextColor: #8fa3b5,
+              RenderBold: true,
+              VerticalAlignment: Center
+            );
+          }
+
+          Label #CurrentMode {
+            Text: "Current mode: Identical item";
+            Anchor: (Left: 0, Right: 0, Height: 22);
+            Style: (
+              FontSize: 15,
+              TextColor: #bdc3c7,
+              VerticalAlignment: Center,
+              HorizontalAlignment: Center
+            );
+          }
+
+          Group { Anchor: (Left: 0, Right: 0, Height: 6); }
+          Button #ModeItemButton {
+            Anchor: (Left: 0, Right: 0, Height: 70);
+            Padding: (Full: 12);
+            Style: (
+              Default: (Background: (Color: #2c3947)),
+              Hovered: (Background: (Color: #334253)),
+              Pressed: (Background: (Color: #253240))
+            );
+
+            // "ACTIVE" badge in the top right (optional)
+            Label #ModeItemState {
+              Text: "ACTIVE";
+              Anchor: (Top: 0, Right: 0, Width: 70, Height: 18);
+              Style: (
+                FontSize: 12,
+                TextColor: #2ecc71,
+                RenderBold: true,
+                VerticalAlignment: Center
+              );
+            }
+
+            Label #ModeItemLabel {
+              Text: "Identical item";
+              Anchor: (Top: 0, Left: 0, Right: 80, Height: 22);
+              Style: (
+                FontSize: 16,
+                TextColor: #e1e6eb,
+                RenderBold: true,
+                VerticalAlignment: Center
+              );
+            }
+
+            Label #ModeItemDesc {
+              Text: "Each item goes to a chest that already has that item";
+              Anchor: (Top: 26, Left: 0, Right: 0, Height: 18);
+              Style: (FontSize: 13, TextColor: #9fb2c4,
+                VerticalAlignment: Center);
+            }
+          }
+
+          Group { Anchor: (Left: 0, Right: 0, Height: 8); }
+
+          Button #ModeCategoryButton {
+            Anchor: (Left: 0, Right: 0, Height: 86);
+            Padding: (Full: 12);
+            Style: (
+              Default: (Background: (Color: #2c3947)),
+              Hovered: (Background: (Color: #334253)),
+              Pressed: (Background: (Color: #253240))
+            );
+
+            Label #ModeCategoryState {
+              Text: ""; // set to "ACTIVE" when selected
+              Anchor: (Top: 0, Right: 0, Width: 70, Height: 18);
+              Style: (
+                FontSize: 12,
+                TextColor: #2ecc71,
+                RenderBold: true,
+                VerticalAlignment: Center
+              );
+            }
+
+            Label #ModeCategoryLabel {
+              Text: "Item category";
+              Anchor: (Top: 0, Left: 0, Right: 80, Height: 22);
+              Style: (
+                FontSize: 16,
+                TextColor: #e1e6eb,
+                RenderBold: true,
+                VerticalAlignment: Center
+              );
+            }
+
+            Label #ModeCategoryDesc {
+              Text: "Sort by ingots, logs, weapons, tools...";
+              Anchor: (Top: 26, Left: 0, Right: 0, Height: 18);
+              Style: (FontSize: 13, TextColor: #9fb2c4,
+                VerticalAlignment: Center);
+            }
+
+            // Warning under the description (no overlap)
+            Label #ModeCategoryWarning {
+              Text: "(Hytale does not always have consistent categories)";
+              Anchor: (Top: 46, Left: 0, Right: 0, Height: 18);
+              Style: (FontSize: 13, TextColor: #c0392b, VerticalAlignment: Center);
+            }
+          }
+          Group { Anchor: (Left: 0, Right: 0, Height: 8); }
+
+          Label #OptionsHeader {
+            Text: "Options:";
+            Anchor: (Left: 0, Right: 0, Height: 20);
+            Style: (
+              FontSize: 13,
+              TextColor: #8fa3b5,
+              RenderBold: true,
+              VerticalAlignment: Center
+            );
+          }
+          Button #FallbackTransferButton {
+            Anchor: (Left: 0, Right: 0, Height: 64);
+            Padding: (Full: 12);
+            Style: (
+              Default: (Background: (Color: #2c3947)),
+              Hovered: (Background: (Color: #334253)),
+              Pressed: (Background: (Color: #253240))
+            );
+
+            Group #FallbackTransferActiveBadge {
+              Anchor: (Top: 0, Right: 0, Width: 90, Height: 18);
+              Background: (Color: #1f5a2c);
+
+              Label #FallbackTransferActiveBadgeLabel {
+                Text: "ACTIVE";
+                Anchor: (Full: 0);
+                Style: (
+                  TextColor: #d6f0dc,
+                  FontSize: 10,
+                  HorizontalAlignment: Center,
+                  VerticalAlignment: Center,
+                  RenderBold: true
+                );
+              }
+            }
+
+            Group #FallbackTransferInactiveBadge {
+              Anchor: (Top: 0, Right: 0, Width: 90, Height: 18);
+              Background: (Color: #6b2b2b);
+
+              Label #FallbackTransferInactiveBadgeLabel {
+                Text: "INACTIVE";
+                Anchor: (Full: 0);
+                Style: (
+                  TextColor: #f5c6c6,
+                  FontSize: 10,
+                  HorizontalAlignment: Center,
+                  VerticalAlignment: Center,
+                  RenderBold: true
+                );
+              }
+            }
+
+            Label #FallbackTransferLabel {
+              Text: "Fallback transfer";
+              Anchor: (Top: 0, Left: 0, Right: 100, Height: 22);
+              Style: (
+                FontSize: 15,
+                TextColor: #e1e6eb,
+                RenderBold: true,
+                VerticalAlignment: Center
+              );
+            }
+
+            Label #FallbackTransferDesc {
+              Text: "If no chest has the item, allow any chest.";
+              Anchor: (Top: 26, Left: 0, Right: 0, Height: 18);
+              Style: (FontSize: 12, TextColor: #9fb2c4,
+                VerticalAlignment: Center);
+            }
+          }
+        }
+

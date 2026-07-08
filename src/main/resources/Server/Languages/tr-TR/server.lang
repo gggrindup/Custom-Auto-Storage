@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Yakındaki sandıklara öğeleri otomatik olarak yerleştiren sandık. Yapılandırmak için Eğil + Kullan basılı tutun.
+items.Furniture_AutoStorage.name=Otomatik depolama sandığı
+
+autostorage.ui.subtitle=Bu sandığa bağlı yapılandırma paneli
+autostorage.ui.current_mode=Geçerli mod: {mode}
+autostorage.ui.linked_chests=Bağlı sandıklar: {count}
+autostorage.ui.horizontal_range=Yatay menzil: {current} / {max}
+autostorage.ui.vertical_range=Dikey menzil: {current} / {max}
+autostorage.ui.state.active=AKTİF
+autostorage.ui.mode.item.label=Aynı öğe
+autostorage.ui.mode.item.desc=Her öğe, o öğeyle aynı sandığa gider
+autostorage.ui.mode.category.label=Öğe kategorisi
+autostorage.ui.mode.category.desc=Külçe, kütük, silah, araçlara göre sıralar...
+autostorage.ui.mode.category.warning=(Hytale her zaman tutarlı kategorilere sahip değildir)
+autostorage.ui.show_range=Menzili göster
+autostorage.chat.sorting_mode=[AutoStorage] Sıralama modu: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Menzil 10 saniye gösterildi.
+autostorage.chat.chest_not_found=[AutoStorage] Sandık bulunamadı.
+autostorage.chat.config_owner_only=[AutoStorage] Bu AutoStorage'i yerlestiren oyuncu yalnizca yapilandirabilir.
+
+autostorage.chat.claim_protected=[AutoStorage] Bu AutoStorage burada kullanılamaz çünkü claim sandıklarla etkileşimi engelliyor.
+
+
+autostorage.ui.tab.config=Yapılandırma
+autostorage.ui.tab.chests=Bağlı sandıklar
+autostorage.ui.chests.title=Menzildeki sandıklar
+autostorage.ui.chests.empty=Uygun sandık bulunamadı.
+autostorage.ui.chests.more=Ve {count} tane daha...
+autostorage.ui.chests.ignore=Yoksay
+autostorage.ui.chests.ignored=Yoksayıldı
+autostorage.ui.chests.badge.ignored=YOKSAYILDI
+autostorage.ui.chests.badge.not_ignored=YOKSAYILMADI
+autostorage.ui.chests.page=Sayfa {current} / {total}
+autostorage.ui.chests.prev=Önceki
+autostorage.ui.chests.next=Sonraki
+
+autostorage.ui.chests.inactive=PASİF
+
+
+autostorage.ui.fallback.label=Eksikse her yere aktar
+autostorage.ui.state.inactive=PASİF
+autostorage.ui.fallback.desc=Hiçbir sandıkta öğe yoksa, herhangi bir sandığa aktar.
+
+autostorage.ui.section.sorting=Sıralama modu:
+autostorage.ui.section.options=Seçenekler:
+
+autostorage.ui.section.range=Menzil:
+

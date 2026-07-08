@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Truhlica, ktorá automaticky ukladá predmety do okolitých truhlíc. Podržte Prikrčiť + Použiť pre konfiguráciu.
+items.Furniture_AutoStorage.name=Automatická úložná truhlica
+
+autostorage.ui.subtitle=Konfiguračný panel priradený k tejto truhlici
+autostorage.ui.current_mode=Aktuálny režim: {mode}
+autostorage.ui.linked_chests=Prepojené truhlice: {count}
+autostorage.ui.horizontal_range=Horizontálny dosah: {current} / {max}
+autostorage.ui.vertical_range=Vertikálny dosah: {current} / {max}
+autostorage.ui.state.active=AKTÍVNY
+autostorage.ui.mode.item.label=Rovnaký predmet
+autostorage.ui.mode.item.desc=Každý predmet ide do rovnakej truhlice ako tento predmet
+autostorage.ui.mode.category.label=Kategória predmetov
+autostorage.ui.mode.category.desc=Triedi podľa ingotov, polien, zbraní, nástrojov...
+autostorage.ui.mode.category.warning=(Hytale nemá vždy konzistentné kategórie)
+autostorage.ui.show_range=Zobraziť dosah
+autostorage.chat.sorting_mode=[AutoStorage] Režim triedenia: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Dosah zobrazený na 10 sekúnd.
+autostorage.chat.chest_not_found=[AutoStorage] Truhlica nenájdená.
+autostorage.chat.config_owner_only=[AutoStorage] Konfigurovať môže iba hráč, ktorý umiestnil tento AutoStorage.
+
+autostorage.chat.claim_protected=[AutoStorage] Tento AutoStorage sa tu nedá použiť, pretože claim blokuje interakciu s truhlami.
+
+
+autostorage.ui.tab.config=Konfigurácia
+autostorage.ui.tab.chests=Prepojené truhlice
+autostorage.ui.chests.title=Truhlice v dosahu
+autostorage.ui.chests.empty=Nenašli sa žiadne vhodné truhlice.
+autostorage.ui.chests.more=A ďalších {count}...
+autostorage.ui.chests.ignore=Ignorovať
+autostorage.ui.chests.ignored=Ignorované
+autostorage.ui.chests.badge.ignored=IGNOROVANÉ
+autostorage.ui.chests.badge.not_ignored=NEIGNOROVANÉ
+autostorage.ui.chests.page=Strana {current} / {total}
+autostorage.ui.chests.prev=Predchádzajúca
+autostorage.ui.chests.next=Ďalšia
+
+autostorage.ui.chests.inactive=NEAKTÍVNE
+
+
+autostorage.ui.fallback.label=Preniesť kamkoľvek, ak chýba
+autostorage.ui.state.inactive=NEAKTÍVNE
+autostorage.ui.fallback.desc=Ak žiadna truhlica nemá predmet, preniesť do ľubovoľnej truhlice.
+
+autostorage.ui.section.sorting=Režim triedenia:
+autostorage.ui.section.options=Možnosti:
+
+autostorage.ui.section.range=Dosah:
+

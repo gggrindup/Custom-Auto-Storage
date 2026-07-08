@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=ÐšÑƒÑ‚Ð¸Ñ, ÐºÐ¾ÑÑ‚Ð¾ Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡Ð½Ð¾ Ð¿Ð¾Ð´Ñ€ÐµÐ¶Ð´Ð° Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚Ð¸ Ð² Ð±Ð»Ð¸Ð·ÐºÐ¸Ñ‚Ðµ ÑÐ°Ð½Ð´ÑŠÑ†Ð¸. Ð—Ð°Ð´Ñ€ÑŠÐ¶Ñ‚Ðµ ÐšÐ»ÐµÐº + Ð˜Ð·Ð¿Ð¾Ð»Ð·Ð²Ð°Ð½Ðµ Ð·Ð° ÐºÐ¾Ð½Ñ„Ð¸Ð³ÑƒÑ€Ð°Ñ†Ð¸Ñ.
+items.Furniture_AutoStorage.name=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡Ð½Ð° ÐºÑƒÑ‚Ð¸Ñ Ð·Ð° ÑÑŠÑ…Ñ€Ð°Ð½ÐµÐ½Ð¸Ðµ
+
+autostorage.ui.subtitle=ÐŸÐ°Ð½ÐµÐ» Ð·Ð° ÐºÐ¾Ð½Ñ„Ð¸Ð³ÑƒÑ€Ð°Ñ†Ð¸Ñ, ÑÐ²ÑŠÑ€Ð·Ð°Ð½ Ñ Ñ‚Ð°Ð·Ð¸ ÐºÑƒÑ‚Ð¸Ñ
+autostorage.ui.current_mode=Ð¢ÐµÐºÑƒÑ‰ Ñ€ÐµÐ¶Ð¸Ð¼: {mode}
+autostorage.ui.linked_chests=Ð¡Ð²ÑŠÑ€Ð·Ð°Ð½Ð¸ ÑÐ°Ð½Ð´ÑŠÑ†Ð¸: {count}
+autostorage.ui.horizontal_range=Ð¥Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÐµÐ½ Ð¾Ð±Ñ…Ð²Ð°Ñ‚: {current} / {max}
+autostorage.ui.vertical_range=Ð’ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÐµÐ½ Ð¾Ð±Ñ…Ð²Ð°Ñ‚: {current} / {max}
+autostorage.ui.state.active=ÐÐšÐ¢Ð˜Ð’ÐÐž
+autostorage.ui.mode.item.label=Ð˜Ð´ÐµÐ½Ñ‚Ð¸Ñ‡ÐµÐ½ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚
+autostorage.ui.mode.item.desc=Ð’ÑÐµÐºÐ¸ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚ Ð¾Ñ‚Ð¸Ð²Ð° Ð² ÑÑŠÑ‰Ð¸Ñ ÑÐ°Ð½Ð´ÑŠÐº ÐºÐ°Ñ‚Ð¾ Ñ‚Ð¾Ð·Ð¸ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚
+autostorage.ui.mode.category.label=ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚Ð¸
+autostorage.ui.mode.category.desc=Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð° Ð¿Ð¾ ÐºÑŽÐ»Ñ‡ÐµÑ‚Ð°, Ñ‚Ñ€ÑƒÐ¿Ð¸, Ð¾Ñ€ÑŠÐ¶Ð¸Ñ, Ð¸Ð½ÑÑ‚Ñ€ÑƒÐ¼ÐµÐ½Ñ‚Ð¸...
+autostorage.ui.mode.category.warning=(Hytale Ð½Ðµ Ð²Ð¸Ð½Ð°Ð³Ð¸ Ð¸Ð¼Ð° Ð¿Ð¾ÑÐ»ÐµÐ´Ð¾Ð²Ð°Ñ‚ÐµÐ»Ð½Ð¸ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸)
+autostorage.ui.show_range=ÐŸÐ¾ÐºÐ°Ð¶Ð¸ Ð¾Ð±Ñ…Ð²Ð°Ñ‚
+autostorage.chat.sorting_mode=[AutoStorage] Ð ÐµÐ¶Ð¸Ð¼ Ð½Ð° ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð°Ð½Ðµ: {mode}
+autostorage.chat.range_displayed=[AutoStorage] ÐžÐ±Ñ…Ð²Ð°Ñ‚ÑŠÑ‚ Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ð½ Ð·Ð° 10 ÑÐµÐºÑƒÐ½Ð´Ð¸.
+autostorage.chat.chest_not_found=[AutoStorage] Ð¡Ð°Ð½Ð´ÑŠÐºÑŠÑ‚ Ð½Ðµ Ðµ Ð½Ð°Ð¼ÐµÑ€ÐµÐ½.
+autostorage.chat.config_owner_only=[AutoStorage] Само играчът, който е поставил този AutoStorage, може да го конфигурира.
+
+autostorage.chat.claim_protected=[AutoStorage] Този AutoStorage не може да се използва тук, защото claim-ът блокира взаимодействието със сандъците.
+
+
+autostorage.ui.tab.config=ÐšÐ¾Ð½Ñ„Ð¸Ð³ÑƒÑ€Ð°Ñ†Ð¸Ñ
+autostorage.ui.tab.chests=Ð¡Ð²ÑŠÑ€Ð·Ð°Ð½Ð¸ ÑÐ°Ð½Ð´ÑŠÑ†Ð¸
+autostorage.ui.chests.title=Ð¡Ð°Ð½Ð´ÑŠÑ†Ð¸ Ð² Ð¾Ð±Ñ…Ð²Ð°Ñ‚
+autostorage.ui.chests.empty=ÐÐµ ÑÐ° Ð½Ð°Ð¼ÐµÑ€ÐµÐ½Ð¸ Ð¿Ð¾Ð´Ñ…Ð¾Ð´ÑÑ‰Ð¸ ÑÐ°Ð½Ð´ÑŠÑ†Ð¸.
+autostorage.ui.chests.more=Ð˜ Ð¾Ñ‰Ðµ {count}...
+autostorage.ui.chests.ignore=Ð˜Ð³Ð½Ð¾Ñ€Ð¸Ñ€Ð°Ð¹
+autostorage.ui.chests.ignored=Ð˜Ð³Ð½Ð¾Ñ€Ð¸Ñ€Ð°Ð½
+autostorage.ui.chests.badge.ignored=Ð˜Ð“ÐÐžÐ Ð˜Ð ÐÐ
+autostorage.ui.chests.badge.not_ignored=ÐÐ• Ð˜Ð“ÐÐžÐ Ð˜Ð ÐÐ
+autostorage.ui.chests.page=Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° {current} / {total}
+autostorage.ui.chests.prev=ÐÐ°Ð·Ð°Ð´
+autostorage.ui.chests.next=ÐÐ°Ð¿Ñ€ÐµÐ´
+
+autostorage.ui.chests.inactive=ÐÐ•ÐÐšÐ¢Ð˜Ð’ÐÐž
+
+
+autostorage.ui.fallback.label=ÐŸÑ€ÐµÑ…Ð²ÑŠÑ€Ð»ÑÐ¹ Ð½Ð°Ð²ÑÑÐºÑŠÐ´Ðµ Ð°ÐºÐ¾ Ð»Ð¸Ð¿ÑÐ²Ð°
+autostorage.ui.state.inactive=ÐÐ•ÐÐšÐ¢Ð˜Ð’ÐÐž
+autostorage.ui.fallback.desc=ÐÐºÐ¾ Ð½ÑÐ¼Ð° ÑÐ°Ð½Ð´ÑŠÐº Ñ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚Ð°, Ð¿Ñ€ÐµÑ…Ð²ÑŠÑ€Ð»Ð¸ Ð² Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð»ÐµÐ½ ÑÐ°Ð½Ð´ÑŠÐº.
+
+autostorage.ui.section.sorting=Ð ÐµÐ¶Ð¸Ð¼ Ð½Ð° ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð°Ð½Ðµ:
+autostorage.ui.section.options=ÐžÐ¿Ñ†Ð¸Ð¸:
+
+autostorage.ui.section.range=ÐžÐ±Ñ…Ð²Ð°Ñ‚:
+

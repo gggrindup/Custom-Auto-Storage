@@ -1,0 +1,45 @@
+items.Furniture_AutoStorage.description=Ящик, позволяющий автоматически складывать предметы в ближайшие сундуки. Удерживайте Присесть + Взаимодействовать для настройки.
+items.Furniture_AutoStorage.name=Ящик автоматического хранения
+
+autostorage.ui.subtitle=Панель настройки, связанная с этим ящиком
+autostorage.ui.current_mode=Текущий режим: {mode}
+autostorage.ui.linked_chests=Связанные сундуки: {count}
+autostorage.ui.horizontal_range=Горизонтальный радиус: {current} / {max}
+autostorage.ui.vertical_range=Вертикальный радиус: {current} / {max}
+autostorage.ui.state.active=АКТИВНО
+autostorage.ui.mode.item.label=Одинаковый предмет
+autostorage.ui.mode.item.desc=Каждый предмет попадает в тот же сундук, что и этот предмет
+autostorage.ui.mode.category.label=Категория предметов
+autostorage.ui.mode.category.desc=Сортировка по слиткам, брёвнам, оружию, инструментам...
+autostorage.ui.mode.category.warning=(Hytale не всегда имеет согласованные категории)
+autostorage.ui.show_range=Показать радиус
+autostorage.chat.sorting_mode=[AutoStorage] Режим сортировки: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Радиус показан на 10 секунд.
+autostorage.chat.chest_not_found=[AutoStorage] Сундук не найден.
+autostorage.chat.config_owner_only=[AutoStorage] Только игрок, который установил этот AutoStorage, может его настроить.
+
+autostorage.chat.claim_protected=[AutoStorage] Этот AutoStorage нельзя использовать здесь, потому что claim блокирует взаимодействие с сундуками.
+
+autostorage.ui.tab.config=Настройка
+autostorage.ui.tab.chests=Связанные сундуки
+autostorage.ui.chests.title=Сундуки в радиусе
+autostorage.ui.chests.empty=Подходящие сундуки не найдены.
+autostorage.ui.chests.more=И ещё {count}...
+autostorage.ui.chests.ignore=Игнорировать
+autostorage.ui.chests.ignored=Игнорируется
+autostorage.ui.chests.badge.ignored=ИГНОРИРУЕТСЯ
+autostorage.ui.chests.badge.not_ignored=НЕ ИГНОРИРУЕТСЯ
+autostorage.ui.chests.page=Страница {current} / {total}
+autostorage.ui.chests.prev=Назад
+autostorage.ui.chests.next=Далее
+
+autostorage.ui.chests.inactive=НЕАКТИВНО
+
+autostorage.ui.fallback.label=Переносить куда угодно, если отсутствует
+autostorage.ui.state.inactive=НЕАКТИВНО
+autostorage.ui.fallback.desc=Если ни в одном сундуке нет предмета, перенести в любой сундук.
+
+autostorage.ui.section.sorting=Режим сортировки:
+autostorage.ui.section.options=Опции:
+
+autostorage.ui.section.range=Радиус:

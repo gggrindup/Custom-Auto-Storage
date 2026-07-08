@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Kist die items automatisch in nabijgelegen kisten opbergt. Houd Sluipen + Gebruiken ingedrukt om te configureren.
+items.Furniture_AutoStorage.name=Automatische opslagkist
+
+autostorage.ui.subtitle=Configuratiepaneel gekoppeld aan deze kist
+autostorage.ui.current_mode=Huidige modus: {mode}
+autostorage.ui.linked_chests=Gekoppelde kisten: {count}
+autostorage.ui.horizontal_range=Horizontale reikwijdte: {current} / {max}
+autostorage.ui.vertical_range=Verticale reikwijdte: {current} / {max}
+autostorage.ui.state.active=ACTIEF
+autostorage.ui.mode.item.label=Identiek item
+autostorage.ui.mode.item.desc=Elk item gaat naar dezelfde kist als dat item
+autostorage.ui.mode.category.label=Itemcategorie
+autostorage.ui.mode.category.desc=Sorteert op staven, stammen, wapens, gereedschap...
+autostorage.ui.mode.category.warning=(Hytale heeft niet altijd consistente categorieën)
+autostorage.ui.show_range=Reikwijdte tonen
+autostorage.chat.sorting_mode=[AutoStorage] Sorteermodus: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Reikwijdte 10 seconden getoond.
+autostorage.chat.chest_not_found=[AutoStorage] Kist niet gevonden.
+autostorage.chat.config_owner_only=[AutoStorage] Alleen de speler die deze AutoStorage heeft geplaatst kan deze configureren.
+
+autostorage.chat.claim_protected=[AutoStorage] Deze AutoStorage kan hier niet worden gebruikt omdat de claim interactie met kisten blokkeert.
+
+
+autostorage.ui.tab.config=Configuratie
+autostorage.ui.tab.chests=Gekoppelde kisten
+autostorage.ui.chests.title=Kisten binnen bereik
+autostorage.ui.chests.empty=Geen geschikte kisten gevonden.
+autostorage.ui.chests.more=En nog {count}...
+autostorage.ui.chests.ignore=Negeren
+autostorage.ui.chests.ignored=Genegeerd
+autostorage.ui.chests.badge.ignored=GENEGEERD
+autostorage.ui.chests.badge.not_ignored=NIET GENEGEERD
+autostorage.ui.chests.page=Pagina {current} / {total}
+autostorage.ui.chests.prev=Vorige
+autostorage.ui.chests.next=Volgende
+
+autostorage.ui.chests.inactive=INACTIEF
+
+
+autostorage.ui.fallback.label=Overal overbrengen indien ontbrekend
+autostorage.ui.state.inactive=INACTIEF
+autostorage.ui.fallback.desc=Als geen kist het item heeft, overbrengen naar een willekeurige kist.
+
+autostorage.ui.section.sorting=Sorteermodus:
+autostorage.ui.section.options=Opties:
+
+autostorage.ui.section.range=Bereik:
+

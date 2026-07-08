@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Låda som automatiskt lagrar föremål i närliggande kistor. Håll Smyg + Använd för att konfigurera.
+items.Furniture_AutoStorage.name=Automatisk förvaringslåda
+
+autostorage.ui.subtitle=Konfigurationspanel kopplat till denna låda
+autostorage.ui.current_mode=Aktuellt läge: {mode}
+autostorage.ui.linked_chests=Länkade kistor: {count}
+autostorage.ui.horizontal_range=Horisontell räckvidd: {current} / {max}
+autostorage.ui.vertical_range=Vertikal räckvidd: {current} / {max}
+autostorage.ui.state.active=AKTIV
+autostorage.ui.mode.item.label=Identiskt föremål
+autostorage.ui.mode.item.desc=Varje föremål går till samma kista som det föremålet
+autostorage.ui.mode.category.label=Föremålskategori
+autostorage.ui.mode.category.desc=Sortera efter tackor, stockar, vapen, verktyg...
+autostorage.ui.mode.category.warning=(Hytale har inte alltid konsekventa kategorier)
+autostorage.ui.show_range=Visa räckvidd
+autostorage.chat.sorting_mode=[AutoStorage] Sorteringsläge: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Räckvidd visad i 10 sekunder.
+autostorage.chat.chest_not_found=[AutoStorage] Kista hittades inte.
+autostorage.chat.config_owner_only=[AutoStorage] Endast spelaren som placerade denna AutoStorage kan konfigurera den.
+
+autostorage.chat.claim_protected=[AutoStorage] Den här AutoStorage kan inte användas här eftersom claim blockerar interaktion med kistor.
+
+
+autostorage.ui.tab.config=Konfiguration
+autostorage.ui.tab.chests=Länkade kistor
+autostorage.ui.chests.title=Kistor inom räckvidd
+autostorage.ui.chests.empty=Inga lämpliga kistor hittades.
+autostorage.ui.chests.more=Och {count} till...
+autostorage.ui.chests.ignore=Ignorera
+autostorage.ui.chests.ignored=Ignorerad
+autostorage.ui.chests.badge.ignored=IGNORERAD
+autostorage.ui.chests.badge.not_ignored=INTE IGNORERAD
+autostorage.ui.chests.page=Sida {current} / {total}
+autostorage.ui.chests.prev=Föregående
+autostorage.ui.chests.next=Nästa
+
+autostorage.ui.chests.inactive=INAKTIV
+
+
+autostorage.ui.fallback.label=Överför vart som helst om saknas
+autostorage.ui.state.inactive=INAKTIV
+autostorage.ui.fallback.desc=Om ingen kista har föremålet, överför till valfri kista.
+
+autostorage.ui.section.sorting=Sorteringsläge:
+autostorage.ui.section.options=Alternativ:
+
+autostorage.ui.section.range=Räckvidd:
+

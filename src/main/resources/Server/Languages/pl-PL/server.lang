@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Skrzynia, która automatycznie przechowuje przedmioty w pobliskich skrzyniach. Przytrzymaj Kucanie + Użyj, aby skonfigurować.
+items.Furniture_AutoStorage.name=Automatyczna skrzynia magazynująca
+
+autostorage.ui.subtitle=Panel konfiguracji powiązany z tą skrzynią.
+autostorage.ui.current_mode=Aktualny tryb: {mode}
+autostorage.ui.linked_chests=Powiązane skrzynie: {count}
+autostorage.ui.horizontal_range=Zasięg poziomy: {current} / {max}
+autostorage.ui.vertical_range=Zasięg pionowy: {current} / {max}
+autostorage.ui.state.active=AKTYWNY
+autostorage.ui.mode.item.label=Identyczny przedmiot
+autostorage.ui.mode.item.desc=Każdy przedmiot trafia do tej samej skrzyni co ten przedmiot
+autostorage.ui.mode.category.label=Kategoria przedmiotów
+autostorage.ui.mode.category.desc=Sortuje według sztabek, kłód, broni, narzędzi...
+autostorage.ui.mode.category.warning=(Hytale nie zawsze ma spójne kategorie)
+autostorage.ui.show_range=Pokaż zasięg
+autostorage.chat.sorting_mode=[AutoStorage] Tryb sortowania: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Zasięg pokazany przez 10 sekund.
+autostorage.chat.chest_not_found=[AutoStorage] Skrzynia nie znaleziona.
+autostorage.chat.config_owner_only=[AutoStorage] Tylko gracz, który postawił ten AutoStorage, może go skonfigurować.
+
+autostorage.chat.claim_protected=[AutoStorage] Tego AutoStorage nie można tutaj używać, ponieważ claim blokuje interakcję ze skrzyniami.
+
+
+autostorage.ui.tab.config=Konfiguracja
+autostorage.ui.tab.chests=Powiązane skrzynie
+autostorage.ui.chests.title=Skrzynie w zasięgu
+autostorage.ui.chests.empty=Nie znaleziono odpowiednich skrzyń.
+autostorage.ui.chests.more=I jeszcze {count}...
+autostorage.ui.chests.ignore=Ignoruj
+autostorage.ui.chests.ignored=Zignorowany
+autostorage.ui.chests.badge.ignored=ZIGNOROWANY
+autostorage.ui.chests.badge.not_ignored=NIEZIGNOROWANY
+autostorage.ui.chests.page=Strona {current} / {total}
+autostorage.ui.chests.prev=Poprzednia
+autostorage.ui.chests.next=Następna
+
+autostorage.ui.chests.inactive=NIEAKTYWNY
+
+
+autostorage.ui.fallback.label=Przenieś gdziekolwiek, jeśli brak
+autostorage.ui.state.inactive=NIEAKTYWNY
+autostorage.ui.fallback.desc=Jeśli żadna skrzynia nie ma przedmiotu, przenieś do dowolnej skrzyni.
+
+autostorage.ui.section.sorting=Tryb sortowania:
+autostorage.ui.section.options=Opcje:
+
+autostorage.ui.section.range=Zasięg:
+

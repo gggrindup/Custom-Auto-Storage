@@ -1,0 +1,49 @@
+items.Furniture_AutoStorage.description=Kiste, die Gegenstände automatisch in umliegenden Truhen einsortiert. Halte Schleichen + Benutzen gedrückt, um sie zu konfigurieren.
+items.Furniture_AutoStorage.name=Automatische Lagerkiste
+
+autostorage.ui.subtitle=Konfigurationspanel, das mit dieser Kiste verknüpft ist
+autostorage.ui.current_mode=Aktueller Modus: {mode}
+autostorage.ui.linked_chests=Verknüpfte Truhen: {count}
+autostorage.ui.horizontal_range=Horizontale Reichweite: {current} / {max}
+autostorage.ui.vertical_range=Vertikale Reichweite: {current} / {max}
+autostorage.ui.state.active=AKTIV
+autostorage.ui.mode.item.label=Identischer Gegenstand
+autostorage.ui.mode.item.desc=Jeder Gegenstand geht in dieselbe Truhe wie dieser Gegenstand
+autostorage.ui.mode.category.label=Gegenstandskategorie
+autostorage.ui.mode.category.desc=Sortiert nach Barren, Holz, Waffen, Werkzeugen...
+autostorage.ui.mode.category.warning=(Hytale hat nicht unbedingt konsistente Kategorien)
+autostorage.ui.show_range=Reichweite anzeigen
+autostorage.chat.sorting_mode=[AutoStorage] Sortiermodus: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Reichweite 10 Sekunden angezeigt.
+autostorage.chat.chest_not_found=[AutoStorage] Truhe nicht gefunden.
+autostorage.chat.config_owner_only=[AutoStorage] Nur der Spieler, der dieses AutoStorage platziert hat, kann es konfigurieren.
+
+autostorage.chat.claim_protected=[AutoStorage] Dieses AutoStorage kann hier nicht verwendet werden, weil das Claim die Interaktion mit Truhen blockiert.
+
+
+autostorage.ui.tab.config=Konfiguration
+autostorage.ui.tab.chests=Verknüpfte Truhen
+autostorage.ui.chests.title=Truhen in Reichweite
+autostorage.ui.chests.empty=Keine geeigneten Truhen gefunden.
+autostorage.ui.chests.more=Und {count} mehr...
+autostorage.ui.chests.ignore=Ignorieren
+autostorage.ui.chests.ignored=Ignoriert
+
+autostorage.ui.chests.badge.ignored=IGNORIERT
+autostorage.ui.chests.badge.not_ignored=NICHT IGNORIERT
+autostorage.ui.chests.page=Seite {current} / {total}
+autostorage.ui.chests.prev=Zurück
+autostorage.ui.chests.next=Weiter
+
+autostorage.ui.chests.inactive=INAKTIV
+
+
+autostorage.ui.fallback.label=Überallhin übertragen, wenn fehlt
+autostorage.ui.state.inactive=INAKTIV
+autostorage.ui.fallback.desc=Wenn keine Truhe den Gegenstand hat, in eine beliebige Truhe übertragen.
+
+autostorage.ui.section.sorting=Sortiermodus:
+autostorage.ui.section.options=Optionen:
+
+autostorage.ui.section.range=Reichweite:
+

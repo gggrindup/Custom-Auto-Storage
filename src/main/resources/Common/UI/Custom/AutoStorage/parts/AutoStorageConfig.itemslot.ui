@@ -1,0 +1,26 @@
+Group {
+  Anchor: (Width: 36, Height: 32);
+
+  Button #ItemSlot {
+    Anchor: (Left: 0, Width: 32, Height: 32);
+    Style: (
+      Default: (Background: (Color: #1e252e)),
+      Hovered: (Background: (Color: #2a3542)),
+      Pressed: (Background: (Color: #182029))
+    );
+
+    ItemIcon #ItemIcon {
+      Anchor: (Full: 2);
+    }
+
+    Label #ItemQty {
+      Text: "x1";
+      Anchor: (Bottom: 0, Right: 0, Width: 28, Height: 12);
+      Style: (
+        FontSize: 9,
+        TextColor: #e1e6eb,
+        VerticalAlignment: Center
+      );
+    }
+  }
+}

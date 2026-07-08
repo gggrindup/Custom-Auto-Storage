@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Cassa che permette di riporre automaticamente gli oggetti nei bauli vicini. Tieni Accovacciarsi + Usa per configurare.
+items.Furniture_AutoStorage.name=Cassa di stoccaggio automatico
+
+autostorage.ui.subtitle=Pannello di configurazione collegato a questa cassa
+autostorage.ui.current_mode=Modalità attuale: {mode}
+autostorage.ui.linked_chests=Bauli collegati: {count}
+autostorage.ui.horizontal_range=Portata orizzontale: {current} / {max}
+autostorage.ui.vertical_range=Portata verticale: {current} / {max}
+autostorage.ui.state.active=ATTIVO
+autostorage.ui.mode.item.label=Oggetto identico
+autostorage.ui.mode.item.desc=Ogni oggetto va nello stesso baule di quell'oggetto
+autostorage.ui.mode.category.label=Categoria oggetto
+autostorage.ui.mode.category.desc=Ordina per lingotti, tronchi, armi, strumenti...
+autostorage.ui.mode.category.warning=(Hytale non ha sempre categorie coerenti)
+autostorage.ui.show_range=Mostra portata
+autostorage.chat.sorting_mode=[AutoStorage] Modalità di ordinamento: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Portata mostrata per 10 secondi.
+autostorage.chat.chest_not_found=[AutoStorage] Baule non trovato.
+autostorage.chat.config_owner_only=[AutoStorage] Solo il giocatore che ha posizionato questo AutoStorage può configurarlo.
+
+autostorage.chat.claim_protected=[AutoStorage] Questo AutoStorage non può essere usato qui perché il claim blocca l'interazione con i bauli.
+
+
+autostorage.ui.tab.config=Configurazione
+autostorage.ui.tab.chests=Bauli collegati
+autostorage.ui.chests.title=Bauli nella portata
+autostorage.ui.chests.empty=Nessun baule idoneo trovato.
+autostorage.ui.chests.more=E altri {count}...
+autostorage.ui.chests.ignore=Ignora
+autostorage.ui.chests.ignored=Ignorato
+autostorage.ui.chests.badge.ignored=IGNORATO
+autostorage.ui.chests.badge.not_ignored=NON IGNORATO
+autostorage.ui.chests.page=Pagina {current} / {total}
+autostorage.ui.chests.prev=Precedente
+autostorage.ui.chests.next=Successivo
+
+autostorage.ui.chests.inactive=INATTIVO
+
+
+autostorage.ui.fallback.label=Trasferisci ovunque se mancante
+autostorage.ui.state.inactive=INATTIVO
+autostorage.ui.fallback.desc=Se nessun baule ha l'oggetto, trasferisci in qualsiasi baule.
+
+autostorage.ui.section.sorting=Modalità di ordinamento:
+autostorage.ui.section.options=Opzioni:
+
+autostorage.ui.section.range=Portata:
+

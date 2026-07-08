@@ -1,0 +1,46 @@
+items.Furniture_AutoStorage.description=Crate that automatically stores items in nearby chests. Hold Crouch + Use to configure.
+items.Furniture_AutoStorage.name=Automatic storage crate
+
+autostorage.ui.subtitle=Configuration panel linked to this crate
+autostorage.ui.current_mode=Current mode: {mode}
+autostorage.ui.linked_chests=Linked chests: {count}
+autostorage.ui.horizontal_range=Horizontal range: {current} / {max}
+autostorage.ui.vertical_range=Vertical range: {current} / {max}
+autostorage.ui.state.active=ACTIVE
+autostorage.ui.mode.item.label=Identical item
+autostorage.ui.mode.item.desc=Each item goes to the same chest as that item
+autostorage.ui.mode.category.label=Item category
+autostorage.ui.mode.category.desc=Sort by ingots, logs, weapons, tools...
+autostorage.ui.mode.category.warning=(Hytale does not necessarily have consistent categories)
+autostorage.ui.show_range=Show range
+autostorage.chat.sorting_mode=[AutoStorage] Sorting mode: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Range displayed for 10 seconds.
+autostorage.chat.chest_not_found=[AutoStorage] Chest not found.
+autostorage.chat.config_owner_only=[AutoStorage] Only the player who placed this AutoStorage can configure it.
+autostorage.chat.claim_protected=[AutoStorage] This AutoStorage cannot be used here because chest interaction is blocked by the claim.
+
+
+autostorage.ui.tab.config=Configuration
+autostorage.ui.tab.chests=Linked chests
+autostorage.ui.chests.title=Chests in range
+autostorage.ui.chests.empty=No eligible chests found.
+autostorage.ui.chests.more=And {count} more...
+autostorage.ui.chests.ignore=Ignore
+autostorage.ui.chests.ignored=Ignored
+autostorage.ui.chests.badge.ignored=IGNORED
+autostorage.ui.chests.badge.not_ignored=NOT IGNORED
+autostorage.ui.chests.page=Page {current} / {total}
+autostorage.ui.chests.prev=Previous
+autostorage.ui.chests.next=Next
+
+autostorage.ui.chests.inactive=INACTIVE
+
+
+autostorage.ui.fallback.label=Transfer anywhere if missing
+autostorage.ui.state.inactive=INACTIVE
+autostorage.ui.fallback.desc=If no chest has the item, transfer to any chest.
+
+autostorage.ui.section.sorting=Sorting mode:
+autostorage.ui.section.options=Options:
+
+autostorage.ui.section.range=Range:

@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Caixa que permite guardar automaticamente os itens nos baús próximos. Segure Agachar + Usar para configurar.
+items.Furniture_AutoStorage.name=Caixa de armazenamento automático
+
+autostorage.ui.subtitle=Painel de configuração ligado a esta caixa
+autostorage.ui.current_mode=Modo atual: {mode}
+autostorage.ui.linked_chests=Baús vinculados: {count}
+autostorage.ui.horizontal_range=Alcance horizontal: {current} / {max}
+autostorage.ui.vertical_range=Alcance vertical: {current} / {max}
+autostorage.ui.state.active=ATIVO
+autostorage.ui.mode.item.label=Item idêntico
+autostorage.ui.mode.item.desc=Cada item vai para o mesmo baú que esse item
+autostorage.ui.mode.category.label=Categoria de item
+autostorage.ui.mode.category.desc=Ordena por lingotes, troncos, armas, ferramentas...
+autostorage.ui.mode.category.warning=(Hytale nem sempre tem categorias consistentes)
+autostorage.ui.show_range=Mostrar alcance
+autostorage.chat.sorting_mode=[AutoStorage] Modo de ordenação: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Alcance exibido por 10 segundos.
+autostorage.chat.chest_not_found=[AutoStorage] Baú não encontrado.
+autostorage.chat.config_owner_only=[AutoStorage] Somente o jogador que colocou este AutoStorage pode configurá-lo.
+
+autostorage.chat.claim_protected=[AutoStorage] Este AutoStorage não pode ser usado aqui porque o claim bloqueia a interação com baús.
+
+
+autostorage.ui.tab.config=Configuração
+autostorage.ui.tab.chests=Baús vinculados
+autostorage.ui.chests.title=Baús no alcance
+autostorage.ui.chests.empty=Nenhum baú elegível encontrado.
+autostorage.ui.chests.more=E mais {count}...
+autostorage.ui.chests.ignore=Ignorar
+autostorage.ui.chests.ignored=Ignorado
+autostorage.ui.chests.badge.ignored=IGNORADO
+autostorage.ui.chests.badge.not_ignored=NÃO IGNORADO
+autostorage.ui.chests.page=Página {current} / {total}
+autostorage.ui.chests.prev=Anterior
+autostorage.ui.chests.next=Próximo
+
+autostorage.ui.chests.inactive=INATIVO
+
+
+autostorage.ui.fallback.label=Transferir para qualquer lugar se faltar
+autostorage.ui.state.inactive=INATIVO
+autostorage.ui.fallback.desc=Se nenhum baú tiver o item, transferir para qualquer baú.
+
+autostorage.ui.section.sorting=Modo de ordenação:
+autostorage.ui.section.options=Opções:
+
+autostorage.ui.section.range=Alcance:
+

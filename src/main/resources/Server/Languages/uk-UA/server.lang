@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Ð¡ÐºÑ€Ð¸Ð½Ñ, Ñ‰Ð¾ Ð´Ð¾Ð·Ð²Ð¾Ð»ÑÑ” Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡Ð½Ð¾ ÑÐºÐ»Ð°Ð´Ð°Ñ‚Ð¸ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚Ð¸ Ñƒ Ð½Ð°Ð¹Ð±Ð»Ð¸Ð¶Ñ‡Ñ– ÑÐºÑ€Ð¸Ð½Ñ–. Ð£Ñ‚Ñ€Ð¸Ð¼ÑƒÐ¹Ñ‚Ðµ ÐŸÑ€Ð¸ÑÑ–ÑÑ‚Ð¸ + Ð’Ð¸ÐºÐ¾Ñ€Ð¸ÑÑ‚Ð°Ñ‚Ð¸ Ð´Ð»Ñ Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ.
+items.Furniture_AutoStorage.name=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡Ð½Ð° ÑÐºÑ€Ð¸Ð½Ñ Ð·Ð±ÐµÑ€Ñ–Ð³Ð°Ð½Ð½Ñ
+
+autostorage.ui.subtitle=ÐŸÐ°Ð½ÐµÐ»ÑŒ Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ, Ð¿Ð¾Ð²'ÑÐ·Ð°Ð½Ð° Ð· Ñ†Ñ–Ñ”ÑŽ ÑÐºÑ€Ð¸Ð½ÐµÑŽ
+autostorage.ui.current_mode=ÐŸÐ¾Ñ‚Ð¾Ñ‡Ð½Ð¸Ð¹ Ñ€ÐµÐ¶Ð¸Ð¼: {mode}
+autostorage.ui.linked_chests=ÐŸÐ¾Ð²'ÑÐ·Ð°Ð½Ñ– ÑÐºÑ€Ð¸Ð½Ñ–: {count}
+autostorage.ui.horizontal_range=Ð“Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð¸Ð¹ Ñ€Ð°Ð´Ñ–ÑƒÑ: {current} / {max}
+autostorage.ui.vertical_range=Ð’ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð¸Ð¹ Ñ€Ð°Ð´Ñ–ÑƒÑ: {current} / {max}
+autostorage.ui.state.active=ÐÐšÐ¢Ð˜Ð’ÐÐž
+autostorage.ui.mode.item.label=ÐžÐ´Ð½Ð°ÐºÐ¾Ð²Ð¸Ð¹ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚
+autostorage.ui.mode.item.desc=ÐšÐ¾Ð¶ÐµÐ½ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚ Ð¿Ð¾Ñ‚Ñ€Ð°Ð¿Ð»ÑÑ” Ð² Ñ‚Ñƒ ÑÐ°Ð¼Ñƒ ÑÐºÑ€Ð¸Ð½ÑŽ, Ñ‰Ð¾ Ð¹ Ñ†ÐµÐ¹ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚
+autostorage.ui.mode.category.label=ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ñ–Ñ Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚Ñ–Ð²
+autostorage.ui.mode.category.desc=Ð¡Ð¾Ñ€Ñ‚ÑƒÑ” Ð·Ð° Ð·Ð»Ð¸Ñ‚ÐºÐ°Ð¼Ð¸, ÐºÐ¾Ð»Ð¾Ð´Ð°Ð¼Ð¸, Ð·Ð±Ñ€Ð¾Ñ”ÑŽ, Ñ–Ð½ÑÑ‚Ñ€ÑƒÐ¼ÐµÐ½Ñ‚Ð°Ð¼Ð¸...
+autostorage.ui.mode.category.warning=(Hytale Ð½Ðµ Ð·Ð°Ð²Ð¶Ð´Ð¸ Ð¼Ð°Ñ” ÑƒÐ·Ð³Ð¾Ð´Ð¶ÐµÐ½Ñ– ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ñ–Ñ—)
+autostorage.ui.show_range=ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚Ð¸ Ñ€Ð°Ð´Ñ–ÑƒÑ
+autostorage.chat.sorting_mode=[AutoStorage] Ð ÐµÐ¶Ð¸Ð¼ ÑÐ¾Ñ€Ñ‚ÑƒÐ²Ð°Ð½Ð½Ñ: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Ð Ð°Ð´Ñ–ÑƒÑ Ð¿Ð¾ÐºÐ°Ð·Ð°Ð½Ð¾ Ð½Ð° 10 ÑÐµÐºÑƒÐ½Ð´.
+autostorage.chat.chest_not_found=[AutoStorage] Ð¡ÐºÑ€Ð¸Ð½ÑŽ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾.
+autostorage.chat.config_owner_only=[AutoStorage] Лише гравець, який поставив цей AutoStorage, може його налаштувати.
+
+autostorage.chat.claim_protected=[AutoStorage] Цей AutoStorage не можна використовувати тут, бо claim блокує взаємодію зі скринями.
+
+
+autostorage.ui.tab.config=ÐÐ°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ
+autostorage.ui.tab.chests=ÐŸÐ¾Ð²'ÑÐ·Ð°Ð½Ñ– ÑÐºÑ€Ð¸Ð½Ñ–
+autostorage.ui.chests.title=Ð¡ÐºÑ€Ð¸Ð½Ñ– Ð² Ñ€Ð°Ð´Ñ–ÑƒÑÑ–
+autostorage.ui.chests.empty=ÐŸÑ–Ð´Ñ…Ð¾Ð´ÑÑ‰Ñ– ÑÐºÑ€Ð¸Ð½Ñ– Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾.
+autostorage.ui.chests.more=Ð† Ñ‰Ðµ {count}...
+autostorage.ui.chests.ignore=Ð†Ð³Ð½Ð¾Ñ€ÑƒÐ²Ð°Ñ‚Ð¸
+autostorage.ui.chests.ignored=Ð†Ð³Ð½Ð¾Ñ€Ð¾Ð²Ð°Ð½Ð¾
+autostorage.ui.chests.badge.ignored=Ð†Ð“ÐÐžÐ ÐžÐ’ÐÐÐž
+autostorage.ui.chests.badge.not_ignored=ÐÐ• Ð†Ð“ÐÐžÐ ÐžÐ’ÐÐÐž
+autostorage.ui.chests.page=Ð¡Ñ‚Ð¾Ñ€Ñ–Ð½ÐºÐ° {current} / {total}
+autostorage.ui.chests.prev=ÐŸÐ¾Ð¿ÐµÑ€ÐµÐ´Ð½Ñ
+autostorage.ui.chests.next=ÐÐ°ÑÑ‚ÑƒÐ¿Ð½Ð°
+
+autostorage.ui.chests.inactive=ÐÐ•ÐÐšÐ¢Ð˜Ð’ÐÐž
+
+
+autostorage.ui.fallback.label=ÐŸÐµÑ€ÐµÐ½Ð¾ÑÐ¸Ñ‚Ð¸ Ð±ÑƒÐ´ÑŒ-ÐºÑƒÐ´Ð¸, ÑÐºÑ‰Ð¾ Ð²Ñ–Ð´ÑÑƒÑ‚Ð½Ñ–Ð¹
+autostorage.ui.state.inactive=ÐÐ•ÐÐšÐ¢Ð˜Ð’ÐÐž
+autostorage.ui.fallback.desc=Ð¯ÐºÑ‰Ð¾ Ð¶Ð¾Ð´Ð½Ð° ÑÐºÑ€Ð¸Ð½Ñ Ð½Ðµ Ð¼Ð°Ñ” Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚Ð°, Ð¿ÐµÑ€ÐµÐ½ÐµÑÑ‚Ð¸ Ð² Ð±ÑƒÐ´ÑŒ-ÑÐºÑƒ ÑÐºÑ€Ð¸Ð½ÑŽ.
+
+autostorage.ui.section.sorting=Ð ÐµÐ¶Ð¸Ð¼ ÑÐ¾Ñ€Ñ‚ÑƒÐ²Ð°Ð½Ð½Ñ:
+autostorage.ui.section.options=ÐžÐ¿Ñ†Ñ–Ñ—:
+
+autostorage.ui.section.range=Ð Ð°Ð´Ñ–ÑƒÑ:
+

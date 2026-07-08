@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=Caja que permite guardar automáticamente los objetos en los cofres cercanos. Mantén Agacharse + Usar para configurar.
+items.Furniture_AutoStorage.name=Caja de almacenamiento automático
+
+autostorage.ui.subtitle=Panel de configuración vinculado a esta caja
+autostorage.ui.current_mode=Modo actual: {mode}
+autostorage.ui.linked_chests=Cofres vinculados: {count}
+autostorage.ui.horizontal_range=Alcance horizontal: {current} / {max}
+autostorage.ui.vertical_range=Alcance vertical: {current} / {max}
+autostorage.ui.state.active=ACTIVO
+autostorage.ui.mode.item.label=Objeto idéntico
+autostorage.ui.mode.item.desc=Cada objeto va al mismo cofre que ese objeto
+autostorage.ui.mode.category.label=Categoría de objeto
+autostorage.ui.mode.category.desc=Ordena por lingotes, troncos, armas, herramientas...
+autostorage.ui.mode.category.warning=(Hytale no siempre tiene categorías coherentes)
+autostorage.ui.show_range=Mostrar alcance
+autostorage.chat.sorting_mode=[AutoStorage] Modo de ordenación: {mode}
+autostorage.chat.range_displayed=[AutoStorage] Alcance mostrado durante 10 segundos.
+autostorage.chat.chest_not_found=[AutoStorage] Cofre no encontrado.
+autostorage.chat.config_owner_only=[AutoStorage] Solo el jugador que colocó este AutoStorage puede configurarlo.
+
+autostorage.chat.claim_protected=[AutoStorage] Este AutoStorage no se puede usar aquí porque el claim bloquea la interacción con cofres.
+
+
+autostorage.ui.tab.config=Configuración
+autostorage.ui.tab.chests=Cofres vinculados
+autostorage.ui.chests.title=Cofres en alcance
+autostorage.ui.chests.empty=No se encontraron cofres elegibles.
+autostorage.ui.chests.more=Y {count} más...
+autostorage.ui.chests.ignore=Ignorar
+autostorage.ui.chests.ignored=Ignorado
+autostorage.ui.chests.badge.ignored=IGNORADO
+autostorage.ui.chests.badge.not_ignored=NO IGNORADO
+autostorage.ui.chests.page=Página {current} / {total}
+autostorage.ui.chests.prev=Anterior
+autostorage.ui.chests.next=Siguiente
+
+autostorage.ui.chests.inactive=INACTIVO
+
+
+autostorage.ui.fallback.label=Transferir a cualquier lugar si falta
+autostorage.ui.state.inactive=INACTIVO
+autostorage.ui.fallback.desc=Si ningún cofre tiene el objeto, transferir a cualquier cofre.
+
+autostorage.ui.section.sorting=Modo de ordenación:
+autostorage.ui.section.options=Opciones:
+
+autostorage.ui.section.range=Alcance:
+

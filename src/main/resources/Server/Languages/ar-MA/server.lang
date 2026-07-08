@@ -1,0 +1,48 @@
+items.Furniture_AutoStorage.description=ØµÙ†Ø¯ÙˆÙ‚ ÙŠØ³Ù…Ø­ Ø¨ØªØ±ØªÙŠØ¨ Ø§Ù„Ø¹Ù†Ø§ØµØ± ØªÙ„Ù‚Ø§Ø¦ÙŠØ§Ù‹ ÙÙŠ Ø§Ù„ØµÙ†Ø§Ø¯ÙŠÙ‚ Ø§Ù„Ù‚Ø±ÙŠØ¨Ø©. Ø§Ø¶ØºØ· Ù…Ø·ÙˆÙ„Ø§Ù‹ Ø¹Ù„Ù‰ Ø§Ù„Ø§Ù†Ø­Ù†Ø§Ø¡ + Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù… Ù„Ù„ØªÙ‡ÙŠØ¦Ø©.
+items.Furniture_AutoStorage.name=ØµÙ†Ø¯ÙˆÙ‚ ØªØ®Ø²ÙŠÙ† ØªÙ„Ù‚Ø§Ø¦ÙŠ
+
+autostorage.ui.subtitle=Ù„ÙˆØ­Ø© Ø¥Ø¹Ø¯Ø§Ø¯ Ù…Ø±ØªØ¨Ø·Ø© Ø¨Ù‡Ø°Ø§ Ø§Ù„ØµÙ†Ø¯ÙˆÙ‚
+autostorage.ui.current_mode=Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø­Ø§Ù„ÙŠ: {mode}
+autostorage.ui.linked_chests=Ø§Ù„ØµÙ†Ø§Ø¯ÙŠÙ‚ Ø§Ù„Ù…Ø±ØªØ¨Ø·Ø©: {count}
+autostorage.ui.horizontal_range=Ø§Ù„Ù…Ø¯Ù‰ Ø§Ù„Ø£ÙÙ‚ÙŠ: {current} / {max}
+autostorage.ui.vertical_range=Ø§Ù„Ù…Ø¯Ù‰ Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠ: {current} / {max}
+autostorage.ui.state.active=Ù†Ø´Ø·
+autostorage.ui.mode.item.label=Ø¹Ù†ØµØ± Ù…Ø·Ø§Ø¨Ù‚
+autostorage.ui.mode.item.desc=ÙƒÙ„ Ø¹Ù†ØµØ± ÙŠØ°Ù‡Ø¨ Ø¥Ù„Ù‰ Ù†ÙØ³ Ø§Ù„ØµÙ†Ø¯ÙˆÙ‚ Ø§Ù„Ø°ÙŠ ÙŠØ­ØªÙˆÙŠ Ø¹Ù„Ù‰ Ù‡Ø°Ø§ Ø§Ù„Ø¹Ù†ØµØ±
+autostorage.ui.mode.category.label=ÙØ¦Ø© Ø§Ù„Ø¹Ù†ØµØ±
+autostorage.ui.mode.category.desc=Ø§Ù„ÙØ±Ø² Ø­Ø³Ø¨ Ø§Ù„Ø³Ø¨Ø§Ø¦ÙƒØŒ Ø§Ù„Ø¬Ø°ÙˆØ¹ØŒ Ø§Ù„Ø£Ø³Ù„Ø­Ø©ØŒ Ø§Ù„Ø£Ø¯ÙˆØ§Øª...
+autostorage.ui.mode.category.warning=(Hytale Ù„Ø§ ÙŠÙ…ØªÙ„Ùƒ Ø¯Ø§Ø¦Ù…Ø§Ù‹ ÙØ¦Ø§Øª Ù…ØªÙ†Ø§Ø³Ù‚Ø©)
+autostorage.ui.show_range=Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„Ù…Ø¯Ù‰
+autostorage.chat.sorting_mode=[AutoStorage] ÙˆØ¶Ø¹ Ø§Ù„ÙØ±Ø²: {mode}
+autostorage.chat.range_displayed=[AutoStorage] ØªÙ… Ø¹Ø±Ø¶ Ø§Ù„Ù…Ø¯Ù‰ Ù„Ù…Ø¯Ø© 10 Ø«ÙˆØ§Ù†Ù.
+autostorage.chat.chest_not_found=[AutoStorage] Ù„Ù… ÙŠØªÙ… Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ ØµÙ†Ø¯ÙˆÙ‚.
+autostorage.chat.config_owner_only=[AutoStorage] فقط اللاعب الذي وضع هذا AutoStorage يمكنه تهيئته.
+
+autostorage.chat.claim_protected=[AutoStorage] لا يمكن استخدام هذا AutoStorage هنا لأن المطالبة تمنع التفاعل مع الصناديق.
+
+
+autostorage.ui.tab.config=Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
+autostorage.ui.tab.chests=Ø§Ù„ØµÙ†Ø§Ø¯ÙŠÙ‚ Ø§Ù„Ù…Ø±ØªØ¨Ø·Ø©
+autostorage.ui.chests.title=Ø§Ù„ØµÙ†Ø§Ø¯ÙŠÙ‚ Ø¶Ù…Ù† Ø§Ù„Ù…Ø¯Ù‰
+autostorage.ui.chests.empty=Ù„Ù… ÙŠØªÙ… Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ ØµÙ†Ø§Ø¯ÙŠÙ‚ Ù…Ù†Ø§Ø³Ø¨Ø©.
+autostorage.ui.chests.more=Ùˆ{count} Ø£Ø®Ø±Ù‰...
+autostorage.ui.chests.ignore=ØªØ¬Ø§Ù‡Ù„
+autostorage.ui.chests.ignored=ØªÙ… Ø§Ù„ØªØ¬Ø§Ù‡Ù„
+autostorage.ui.chests.badge.ignored=ØªÙ… Ø§Ù„ØªØ¬Ø§Ù‡Ù„
+autostorage.ui.chests.badge.not_ignored=ØºÙŠØ± Ù…ØªØ¬Ø§Ù‡Ù„
+autostorage.ui.chests.page=ØµÙØ­Ø© {current} / {total}
+autostorage.ui.chests.prev=Ø§Ù„Ø³Ø§Ø¨Ù‚
+autostorage.ui.chests.next=Ø§Ù„ØªØ§Ù„ÙŠ
+
+autostorage.ui.chests.inactive=ØºÙŠØ± Ù†Ø´Ø·
+
+
+autostorage.ui.fallback.label=Ø§Ù†Ù‚Ù„ Ø¥Ù„Ù‰ Ø£ÙŠ Ù…ÙƒØ§Ù† Ø¥Ø°Ø§ ÙƒØ§Ù† Ù…ÙÙ‚ÙˆØ¯Ø§Ù‹
+autostorage.ui.state.inactive=ØºÙŠØ± Ù†Ø´Ø·
+autostorage.ui.fallback.desc=Ø¥Ø°Ø§ Ù„Ù… ÙŠÙƒÙ† Ù„Ø¯Ù‰ Ø£ÙŠ ØµÙ†Ø¯ÙˆÙ‚ Ø§Ù„Ø¹Ù†ØµØ±ØŒ Ø§Ù†Ù‚Ù„Ù‡ Ø¥Ù„Ù‰ Ø£ÙŠ ØµÙ†Ø¯ÙˆÙ‚.
+
+autostorage.ui.section.sorting=ÙˆØ¶Ø¹ Ø§Ù„ÙØ±Ø²:
+autostorage.ui.section.options=Ø§Ù„Ø®ÙŠØ§Ø±Ø§Øª:
+
+autostorage.ui.section.range=Ø§Ù„Ù…Ø¯Ù‰:
+

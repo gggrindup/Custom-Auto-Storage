@@ -1,0 +1,93 @@
+        Group #ChestsContent {
+          Anchor: (Top: 40, Bottom: 0, Left: 0, Right: 0);
+          LayoutMode: Top;
+
+          Label #ChestsTitle {
+            Text: "Chests in range";
+            Anchor: (Left: 0, Right: 0, Height: 22);
+            Style: (
+              FontSize: 15,
+              TextColor: #e1e6eb,
+              RenderBold: true,
+              HorizontalAlignment: Center,
+              VerticalAlignment: Center
+            );
+          }
+
+          Group #ChestsPager {
+            Anchor: (Left: 0, Right: 0, Height: 26);
+            LayoutMode: Center;
+
+            Group #ChestsPagerInner {
+              Anchor: (Width: 260, Height: 24);
+
+              Button #ChestsPrevButton {
+                Anchor: (Left: 0, Width: 60, Height: 24);
+                Style: (
+                  Default: (Background: (Color: #3b4859)),
+                  Hovered: (Background: (Color: #465566)),
+                  Pressed: (Background: (Color: #2f3b4a))
+                );
+                Label #ChestsPrevLabel {
+                  Text: "Prev";
+                  Anchor: (Full: 0);
+                  Style: (
+                    TextColor: #e1e6eb,
+                    FontSize: 11,
+                    HorizontalAlignment: Center,
+                    VerticalAlignment: Center
+                  );
+                }
+              }
+
+              Label #ChestsPageLabel {
+                Text: "Page 1 / 1";
+                Anchor: (Left: 68, Right: 68, Height: 24);
+                Style: (
+                  FontSize: 11,
+                  TextColor: #c7d2de,
+                  HorizontalAlignment: Center,
+                  VerticalAlignment: Center
+                );
+              }
+
+              Button #ChestsNextButton {
+                Anchor: (Right: 0, Width: 60, Height: 24);
+                Style: (
+                  Default: (Background: (Color: #3b4859)),
+                  Hovered: (Background: (Color: #465566)),
+                  Pressed: (Background: (Color: #2f3b4a))
+                );
+                Label #ChestsNextLabel {
+                  Text: "Next";
+                  Anchor: (Full: 0);
+                  Style: (
+                    TextColor: #e1e6eb,
+                    FontSize: 11,
+                    HorizontalAlignment: Center,
+                    VerticalAlignment: Center
+                  );
+                }
+              }
+            }
+          }
+
+          Group { Anchor: (Left: 0, Right: 0, Height: 8); }
+
+          Label #ChestsEmpty {
+            Text: "No eligible chests found.";
+            Anchor: (Left: 0, Right: 0, Height: 20);
+            Style: (
+              FontSize: 12,
+              TextColor: #9fb2c4,
+              HorizontalAlignment: Center,
+              VerticalAlignment: Center
+            );
+          }
+
+          Group #ChestRowsContainer {
+            Anchor: (Left: 0, Right: 0);
+            LayoutMode: Top;
+          }
+        }
+      }

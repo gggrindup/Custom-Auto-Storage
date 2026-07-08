@@ -1,0 +1,39 @@
+{
+  "Group": "afella",
+  "Name": "CustomAutoStorage",
+  "Version": "1.0.0",
+  "Description": "Automatically transfers items to nearby chests containing the same resource",
+  "Authors": [
+    {
+      "Name": "afella",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": ">=0.5.3 <0.6.0",
+  "Dependencies": {},
+  "OptionalDependencies": {"Buuz135:SimpleClaims": "*"},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": [],
+  "Main": "com.afella.customautostorage.AutoStorage",
+  "Permissions": [
+    {
+      "Name": "autostorage.use",
+      "Description": "Allows the use of AutoStorage features.",
+      "Default": true
+    },
+    {
+      "Name": "autostorage.craft",
+      "Description": "Allows crafting AutoStorage when permission is required.",
+      "Default": false
+    },
+    {
+      "Name": "autostorage.config.any",
+      "Description": "Allows configuring any AutoStorage chest, even if not the owner.",
+      "Default": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+items.Furniture_AutoStorage.description=Caisse permettant de ranger automatiquement les objets dans les coffres environnants. Maintenez Accroupi + Utiliser pour configurer.
+items.Furniture_AutoStorage.name=Caisse de rangement automatique
+
+autostorage.ui.subtitle=Panneau de configuration lié à cette caisse
+autostorage.ui.current_mode=Mode actuel : {mode}
+autostorage.ui.linked_chests=Coffres liés : {count}
+autostorage.ui.horizontal_range=Portée horizontale : {current} / {max}
+autostorage.ui.vertical_range=Portée verticale : {current} / {max}
+autostorage.ui.state.active=ACTIF
+autostorage.ui.mode.item.label=Objet identique
+autostorage.ui.mode.item.desc=Chaque objet va dans le même coffre que ce même objet
+autostorage.ui.mode.category.label=Catégorie d'objet
+autostorage.ui.mode.category.desc=Tri par lingots, bûches, armes, outils...
+autostorage.ui.mode.category.warning=(Hytale n'a pas forcément des catégories cohérentes)
+autostorage.ui.show_range=Afficher la zone
+autostorage.chat.sorting_mode=[AutoStorage] Mode de tri : {mode}
+autostorage.chat.range_displayed=[AutoStorage] Zone affichée pendant 10 secondes.
+autostorage.chat.chest_not_found=[AutoStorage] Coffre introuvable.
+autostorage.chat.config_owner_only=[AutoStorage] Seul le joueur qui a posé cet AutoStorage peut le configurer.
+autostorage.chat.claim_protected=[AutoStorage] Cet AutoStorage ne peut pas être utilisé ici car ce claim bloque l'accès aux coffres.
+
+
+autostorage.ui.tab.config=Configuration
+autostorage.ui.tab.chests=Coffres liés
+autostorage.ui.chests.title=Coffres dans la zone
+autostorage.ui.chests.empty=Aucun coffre éligible trouvé.
+autostorage.ui.chests.more=Et {count} de plus...
+autostorage.ui.chests.ignore=Ignorer
+autostorage.ui.chests.ignored=Ignoré
+autostorage.ui.chests.badge.ignored=IGNORÉ
+autostorage.ui.chests.badge.not_ignored=NON IGNORÉ
+autostorage.ui.chests.page=Page {current} / {total}
+autostorage.ui.chests.prev=Précédent
+autostorage.ui.chests.next=Suivant
+
+autostorage.ui.chests.inactive=INACTIF
+
+
+autostorage.ui.fallback.label=Transférer n'importe où si manquant
+autostorage.ui.state.inactive=INACTIF
+autostorage.ui.fallback.desc=Si aucun coffre n'a l'objet, transférer vers n'importe quel coffre.
+
+autostorage.ui.section.sorting=Mode de tri :
+autostorage.ui.section.options=Options :
+
+autostorage.ui.section.range=Portée :
