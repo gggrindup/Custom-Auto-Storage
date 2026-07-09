@@ -66,6 +66,6 @@ public final class AutoStorageIds {
     }
 
     static {
-        AUTO_STORAGE_LOWER = "Furniture_AutoStorage".toLowerCase(Locale.ROOT);
+        AUTO_STORAGE_LOWER = AUTO_STORAGE.toLowerCase(Locale.ROOT);
     }
 }

@@ -75,11 +75,11 @@ public class AutoStorageConfig {
     }
 
     public int getRadiusHardLimit() {
-        return 200;
+        return MAX_RADIUS_LIMIT;
     }
 
     public int getDefaultHorizontalRadius() {
-        int configured = this.radius != null ? this.radius.getDefaultHorizontalRadius() : 14;
+        int configured = this.radius != null ? this.radius.getDefaultHorizontalRadius() : BASE_HORIZONTAL_RADIUS;
         int max = this.getHorizontalRadiusMax();
         return this.clampRadius(configured, 1, max);
     }
@@ -197,7 +197,7 @@ public class AutoStorageConfig {
 
     private void validate() {
         if (this.configVersion <= 0) {
-            this.configVersion = 6;
+            this.configVersion = CURRENT_CONFIG_VERSION;
         }
 
         if (this.radius == null) {
@@ -210,22 +210,22 @@ public class AutoStorageConfig {
 
         if (this.radius.horizontalRadiusMax < 1) {
             this.radius.horizontalRadiusMax = 1;
-        } else if (this.radius.horizontalRadiusMax > 200) {
-            this.radius.horizontalRadiusMax = 200;
+        } else if (this.radius.horizontalRadiusMax > MAX_RADIUS_LIMIT) {
+            this.radius.horizontalRadiusMax = MAX_RADIUS_LIMIT;
         }
 
         if (this.radius.verticalRadiusMax < 1) {
             this.radius.verticalRadiusMax = 1;
-        } else if (this.radius.verticalRadiusMax > 200) {
-            this.radius.verticalRadiusMax = 200;
+        } else if (this.radius.verticalRadiusMax > MAX_RADIUS_LIMIT) {
+            this.radius.verticalRadiusMax = MAX_RADIUS_LIMIT;
         }
 
         if (this.radius.defaultHorizontalRadius < 1) {
-            this.radius.defaultHorizontalRadius = 14;
+            this.radius.defaultHorizontalRadius = BASE_HORIZONTAL_RADIUS;
         }
 
         if (this.radius.defaultVerticalRadius < 1) {
-            this.radius.defaultVerticalRadius = 6;
+            this.radius.defaultVerticalRadius = BASE_VERTICAL_RADIUS;
         }
 
         if (this.radius.defaultHorizontalRadius > this.radius.horizontalRadiusMax) {
@@ -627,8 +627,8 @@ public class AutoStorageConfig {
     public static final class RadiusConfig {
         private int horizontalRadiusMax = 18;
         private int verticalRadiusMax = 15;
-        private int defaultHorizontalRadius = 14;
-        private int defaultVerticalRadius = 6;
+        private int defaultHorizontalRadius = BASE_HORIZONTAL_RADIUS;
+        private int defaultVerticalRadius = BASE_VERTICAL_RADIUS;
 
         public RadiusConfig() {
         }
@@ -697,7 +697,7 @@ public class AutoStorageConfig {
         }
 
         private static String[] defaultDenyIdContains() {
-            return new String[]{"autostorage", "salvage", "campfire", "furnace", "tannery"};
+            return new String[]{"autostorage", "salvage", "campfire", "furnace", "tannery", "trashcan"};
         }
 
         private static String[] normalizeList(String[] values, boolean stripLeadingWildcard) {

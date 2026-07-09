@@ -553,7 +553,7 @@ public final class AutoStorageConfigPage extends InteractiveCustomUIPage<AutoSto
     public static final class PageData {
         private String action;
 
-        public static final BuilderCodec CODEC = BuilderCodec.builder(PageData.class, PageData::new).append(new KeyedCodec<>("Action", Codec.STRING), PageData::setAction, PageData::getAction).add().build();
+        public static final BuilderCodec<PageData> CODEC = BuilderCodec.builder(PageData.class, PageData::new).append(new KeyedCodec<>("Action", Codec.STRING), PageData::setAction, PageData::getAction).add().build();
 
     }
 }
